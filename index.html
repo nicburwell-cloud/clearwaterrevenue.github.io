@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clearwater Revenue | Boutique Hotel Revenue Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            color: #2d3e2d;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(29, 53, 37, 0.7), rgba(29, 53, 37, 0.7)),
+                        url('https://images.unsplash.com/photo-1527489377706-5bf97e608852?q=80&w=2059') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: #e8f4ea;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero .tagline {
+            font-size: 1.5rem;
+            color: #c5d9c9;
+            font-style: italic;
+            margin-bottom: 3rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .hero .scroll-hint {
+            font-size: 0.9rem;
+            color: #a8c5ad;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+
+        /* Content Sections */
+        section {
+            padding: 5rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .beliefs {
+            background: #1d3525;
+            color: #e8f4ea;
+        }
+
+        .beliefs h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            color: #c5d9c9;
+            text-align: center;
+        }
+
+        .beliefs p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .what-we-do {
+            background: #e8f4ea;
+            color: #1d3525;
+        }
+
+        .what-we-do h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            color: #2d4a35;
+            text-align: center;
+        }
+
+        .what-we-do p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .services-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .service-item {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .service-item h3 {
+            font-size: 1.3rem;
+            color: #2d4a35;
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+        }
+
+        /* Join Section */
+        .join {
+            background: #2d4a35;
+            color: #e8f4ea;
+            text-align: center;
+        }
+
+        .join h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            color: #c5d9c9;
+        }
+
+        .join p {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            color: #a8c5ad;
+        }
+
+        .join-button {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: transparent;
+            border: 2px solid #c5d9c9;
+            color: #c5d9c9;
+            text-decoration: none;
+            font-size: 1.1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .join-button:hover {
+            background: #c5d9c9;
+            color: #2d4a35;
+        }
+
+        /* Footer */
+        footer {
+            background: #1d3525;
+            color: #a8c5ad;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero .tagline {
+                font-size: 1.2rem;
+            }
+            section {
+                padding: 3rem 1.5rem;
+            }
+            .beliefs h2, .what-we-do h2, .join h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Clearwater Revenue</h1>
+        <p class="tagline">Where Clearwater runs, opportunity rises</p>
+        <p class="scroll-hint">Scroll to explore</p>
+    </section>
+
+    <!-- Beliefs Section -->
+    <section class="beliefs">
+        <h2>What We Believe</h2>
+        <p>Boutique hotels deserve revenue management that respects what makes them special.</p>
+        <p>Not algorithms. Not automation. Not one-size-fits-all systems.</p>
+        <p>Daily optimization informed by your brand, your guests, your story.</p>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="what-we-do">
+        <h2>What We Do</h2>
+        <p>We partner with independent boutique hotels to maximize revenue while preserving what makes you unique.</p>
+        
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Daily Revenue Optimization</h3>
+                <p>Rate adjustments based on demand, competition, and your positioning</p>
+            </div>
+            <div class="service-item">
+                <h3>Strategic Positioning</h3>
+                <p>Market analysis that honors your brand identity</p>
+            </div>
+            <div class="service-item">
+                <h3>Performance Tracking</h3>
+                <p>Clear metrics, transparent reporting, measurable results</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="join">
+        <h2>Ready to Rise?</h2>
+        <p>If you're a boutique hotel operator looking for revenue management that understands your property, let's talk.</p>
+        <a href="mailto:nicburwell@clearwaterrevenue.com" class="join-button">Join the Current</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Clearwater Revenue. Where Clearwater runs, opportunity rises.</p>
+    </footer>
+</body>
+</html>
