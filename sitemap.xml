@@ -7,14 +7,5 @@
     <priority>1.0</priority>
   </url>
 </urlset>
-```
 
-### **STEP 3: Create `robots.txt` (2 min)**
-Create new file in your repo root:
 
-**Filename:** `robots.txt`
-```
-User-agent: *
-Allow: /
-
-Sitemap: https://www.clearwaterrevenue.com/sitemap.xml
